@@ -10,17 +10,17 @@ function Headers() {
 
   return (
     <>
-    <Navbar expand="lg" className="shadow-md h-30 text-white" bg="light" data-bs-theme="dark">
+    <Navbar expand="lg" className="font-Madimi shadow-xl h-15 text-white bg-lime-400"  data-bs-theme="dark">
     <Navbar.Brand className="ml-4">
-    <NavLink to="/home" className="text-black text-decoration-none">Culture Byte</NavLink></Navbar.Brand>
+    <NavLink to="/" className="text-black text-decoration-none">Culture Byte</NavLink></Navbar.Brand>
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ">
-          <NavLink to="/home" className="text-black text-decoration-none nav-item-spacing" >Home</NavLink> 
+          <NavLink to="/" className="text-black text-decoration-none nav-item-spacing" >Home</NavLink> 
           
             <NavLink to="/about" className="text-black text-decoration-none nav-item-spacing">About us</NavLink>
-            <NavDropdown title="Categories" id="basic-nav-dropdown">
+            <NavDropdown title="Category" id="basic-nav-dropdown" className="text-md text-black">
         <NavDropdown.Item as="div">
           <NavLink to="/region-maha" className="dropdown-item ">Maharashtra</NavLink>
         </NavDropdown.Item>
@@ -42,7 +42,7 @@ function Headers() {
               className="p1 fa-stack fa-2x has-badge"
               data-count={carts.length}
             >
-              <i class="fa-solid fa-cart-shopping "></i>
+              <i class="fa-solid fa-cart-shopping text-black"></i>
             </span>
           </div>
         </NavLink>
