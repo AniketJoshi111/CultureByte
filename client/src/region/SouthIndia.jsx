@@ -20,7 +20,7 @@ const SouthIndia = () => {
     }
     return (
         <>
-            <section className='iteam_section mt-4 container'>
+            <section className='iteam_section mt-4 container bg-sky-300'>
                 <h2 className='px-4' style={{ fontWeight: 400 }}>Rajasthani Food</h2>
                 <div className='row mt-2 d-flex justify-content-around align-items-center '>
                     {
