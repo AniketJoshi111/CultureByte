@@ -20,8 +20,7 @@ const Maharashtra = () => {
     }
     return (
         <>
-        <div className='bg-sky-300 '>
-            <section className='iteam_section  container '>
+            <section className='iteam_section mt-4 container '>
                 <h2 className='px-4' style={{ fontWeight: 400 }}>Maharashtrian Food</h2>
                 <div className='row mt-2 d-flex justify-content-around align-items-center '>
                     {
@@ -57,7 +56,6 @@ const Maharashtra = () => {
 
                 </div>
             </section>
-        </div>
         </>
     )
 }
