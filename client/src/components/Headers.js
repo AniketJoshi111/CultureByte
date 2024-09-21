@@ -5,8 +5,9 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { useSelector } from "react-redux";
 import { NavLink, useNavigate } from "react-router-dom";
 import "./first.css";
-import Login from "../test/Login";
+
 import { NavItem } from "react-bootstrap";
+import Login from "../test/Login";
 
 function Headers() {
   const { carts } = useSelector((state) => state.allCart);
@@ -39,30 +40,7 @@ function Headers() {
               >
                 About us
               </NavLink>
-              <NavDropdown
-                title="Category"
-                id="basic-nav-dropdown"
-                className="text-md text-black mr-3"
-              >
-                <NavDropdown.Item as="div">
-                  <NavLink to="/region-maha" className="dropdown-item ">
-                    Maharashtra
-                  </NavLink>
-                </NavDropdown.Item>
-                <NavDropdown.Item as="div">
-                  <NavLink to="/region-south" className="dropdown-item">
-                    SouthIndia
-                  </NavLink>
-                </NavDropdown.Item>
-                <NavDropdown.Item as="div">
-                  <NavLink to="/region-rajasthan" className="dropdown-item">
-                    Rajasthan
-                  </NavLink>
-                </NavDropdown.Item>
-              </NavDropdown>
-              <NavLink to="/deal-offer" className="text-black text-decoration-none nav-item-spacing">
-                Deals / Offers
-              </NavLink>
+              
               <NavLink to="/contact-us" className="text-black text-decoration-none nav-item-spacing">
               Contact us
               </NavLink>
@@ -80,7 +58,7 @@ function Headers() {
             </span>
           </NavLink>
           <NavLink to="/sign-in">
-            <Login />
+            <Login/>
           </NavLink>
         </Container>
       </Navbar>

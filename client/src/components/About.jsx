@@ -4,20 +4,21 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Card from 'react-bootstrap/Card';
-
+import { FaInstagram, FaTwitter } from 'react-icons/fa';
+import {FaFacebook} from "react-icons/fa";
 function About() {
   return (
-    <div className='bg-sky-300'>
-    <Container className="font-Madimi">
+    
+    <Container className="font-Madimi ">
       <Row className="text-center">
         <Col>
-          <h1 className='mt-2'>About Us</h1>
+          <h1 className='mt-2 text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-indigo-600'>About Us</h1>
           <p>Welcome to Culture Byte, your number one source for booking delicious meals online.</p>
         </Col>
       </Row>
       <Row className="my-4">
         <Col md={6}>
-          <Image src="https://via.placeholder.com/500" rounded fluid />
+          <Image src="/backgroundhome.jpeg" rounded fluid />
         </Col>
         <Col md={6}>
           <Card>
@@ -26,7 +27,7 @@ function About() {
               <Card.Text>
                 At Culture Byte, our mission is to bring you the best food from the most renowned
                 eateries around you, all in the comfort of your home. We believe in quality, variety,
-                and customer satisfaction.
+                and customer satisfaction
               </Card.Text>
             </Card.Body>
           </Card>
@@ -45,12 +46,12 @@ function About() {
           </Card>
         </Col>
         <Col md={6}>
-          <Image src="https://via.placeholder.com/500" rounded fluid />
+          <Image src="/backgroundhome.jpeg" rounded fluid />
         </Col>
       </Row>
       <Row className="my-4">
         <Col md={6}>
-          <Image src="https://via.placeholder.com/500" rounded fluid />
+          <Image src="/backgroundhome.jpeg" rounded fluid />
         </Col>
         <Col md={6}>
           <Card>
@@ -64,8 +65,9 @@ function About() {
           </Card>
         </Col>
       </Row>
+     
     </Container>
-    </div>
+
   );
 }
 

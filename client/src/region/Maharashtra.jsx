@@ -20,7 +20,7 @@ const Maharashtra = () => {
     }
     return (
         <>
-            <section className='iteam_section mt-4 container '>
+            <section className='iteam_section mt-4 container'>
                 <h2 className='px-4' style={{ fontWeight: 400 }}>Maharashtrian Food</h2>
                 <div className='row mt-2 d-flex justify-content-around align-items-center '>
                     {
@@ -42,7 +42,7 @@ const Maharashtra = () => {
                                             </div>
                                             <div className="last_data d-flex justify-content-between align-items-center">
 
-                                                <Button style={{ width: "150px", background: "#f58742", border: "none" }} variant='outline-light'
+                                                <Button style={{ width: "150px", background: "#0650c7", border: "none" }} variant='outline-light'
                                                     className='mt-2 mb-2'
                                                     onClick={()=>send(element)}
                                                 >Add TO Cart</Button>
