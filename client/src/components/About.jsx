@@ -8,11 +8,11 @@ import { FaInstagram, FaTwitter } from 'react-icons/fa';
 import {FaFacebook} from "react-icons/fa";
 function About() {
   return (
-    
+    <div className='bg-gradient-to-tr from-emerald-300 to-cyan-200'>
     <Container className="font-Madimi ">
       <Row className="text-center">
         <Col>
-          <h1 className='mt-2 text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-indigo-600'>About Us</h1>
+          <h1 className='mt-2 '>About Us</h1>
           <p>Welcome to Culture Byte, your number one source for booking delicious meals online.</p>
         </Col>
       </Row>
@@ -67,7 +67,7 @@ function About() {
       </Row>
      
     </Container>
-
+  </div>
   );
 }
 

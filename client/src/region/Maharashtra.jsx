@@ -21,7 +21,7 @@ const Maharashtra = () => {
     return (
         <>
             <section className='iteam_section mt-4 container'>
-                <h2 className='px-4' style={{ fontWeight: 400 }}>Maharashtrian Food</h2>
+                <h2 className='px-4 font-Madimi text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600' style={{ fontWeight: 400 }}>Maharashtrian Food</h2>
                 <div className='row mt-2 d-flex justify-content-around align-items-center '>
                     {
                         cartData.map((element, index) => {
