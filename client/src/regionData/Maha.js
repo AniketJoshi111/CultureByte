@@ -2,7 +2,7 @@ const maharashtraDishes = [
     {
         id: 1,
         dish: "Vada Pav",
-        imgdata: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Vada_Pav.jpg/1200px-Vada_Pav.jpg",
+        imgdata: "https://images.pexels.com/photos/17433353/pexels-photo-17433353.jpeg",
         address: "Fast Food, Street Food",
         price: 50,
         rating: "4.5",
@@ -11,7 +11,7 @@ const maharashtraDishes = [
     {
         id: 2,
         dish: "Pav Bhaji",
-        imgdata: "https://upload.wikimedia.org/wikipedia/commons/1/11/Amul_Butter_Pav_Bhaji.jpg",
+        imgdata: "https://tse1.mm.bing.net/th?id=OIP.fRZW1j0fLNdRzYyxRcu8wgHaFj&pid=Api&rs=1&c=1&qlt=95&w=140&h=105",
         address: "Street Food, Indian",
         price: 120,
         rating: "4.7",
@@ -20,7 +20,7 @@ const maharashtraDishes = [
     {
         id: 3,
         dish: "Misal Pav",
-        imgdata: "https://upload.wikimedia.org/wikipedia/commons/5/54/Misal_Pav.jpg",
+        imgdata: "https://tse3.mm.bing.net/th?id=OIP.EiPwWyuiLXKiJw-BfZ8JggHaFj&pid=Api&P=0&h=180",
         address: "Street Food, Indian",
         price: 100,
         rating: "4.3",
@@ -29,7 +29,7 @@ const maharashtraDishes = [
     {
         id: 4,
         dish: "Puran Poli",
-        imgdata: "https://upload.wikimedia.org/wikipedia/commons/9/90/Puranpoli.jpg",
+        imgdata: "https://tse3.mm.bing.net/th?id=OIP.kUoMagIqacqrsMKDu5IcEgHaE8&pid=Api&P=0&h=180",
         address: "Indian, Desserts",
         price: 80,
         rating: "4.6",
@@ -38,7 +38,7 @@ const maharashtraDishes = [
     {
         id: 5,
         dish: "Sabudana Khichdi",
-        imgdata: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Sabudana_Khichdi.JPG",
+        imgdata: "https://tse1.mm.bing.net/th?id=OIP.nNw9qyEUS4QKWnRHFDRwOwHaEK&pid=Api&P=0&h=180",
         address: "Indian, Vegetarian",
         price: 70,
         rating: "4.2",
@@ -46,8 +46,8 @@ const maharashtraDishes = [
     },
     {
         id: 6,
-        dish: "Bharli Vangi",
-        imgdata: "https://upload.wikimedia.org/wikipedia/commons/5/54/Bharli_vangi.jpg",
+        dish: "Bharli Vaangi",
+        imgdata: "https://i0.wp.com/kalimirchbysmita.com/wp-content/uploads/2018/09/Bharli-Vangi-Insta-02.jpg?resize=1537%2C1024",
         address: "Indian, Vegetarian",
         price: 150,
         rating: "4.4",
@@ -56,7 +56,7 @@ const maharashtraDishes = [
     {
         id: 7,
         dish: "Poha",
-        imgdata: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Poha%2C_Indian_Breakfast.jpg/1200px-Poha%2C_Indian_Breakfast.jpg",
+        imgdata: "https://tse2.mm.bing.net/th?id=OIP.BLo03aRym97H67DoM-7AnQHaEK&pid=Api&P=0&h=180",
         address: "Breakfast, Street Food",
         price: 50,
         rating: "4.5",
@@ -65,7 +65,7 @@ const maharashtraDishes = [
     {
         id: 8,
         dish: "Modak",
-        imgdata: "https://upload.wikimedia.org/wikipedia/commons/1/16/Modak_Sweet.JPG",
+        imgdata: "https://tse3.mm.bing.net/th?id=OIP.SSU4a2sxC4uQTV9SDmLZkQHaEK&pid=Api&P=0&h=180",
         address: "Desserts, Indian",
         price: 100,
         rating: "4.8",
@@ -74,7 +74,7 @@ const maharashtraDishes = [
     {
         id: 9,
         dish: "Pithla Bhakri",
-        imgdata: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Pithla_bhakri.jpg",
+        imgdata: "https://tse1.mm.bing.net/th?id=OIP.HkGEkvNM5hwzjcAJm1ABTQHaEK&pid=Api&P=0&h=180",
         address: "Indian, Vegetarian",
         price: 130,
         rating: "4.5",

@@ -2,7 +2,7 @@ const southIndianDishes = [
     {
         id: 1,
         dish: "Dosa",
-        imgdata: "https://upload.wikimedia.org/wikipedia/commons/9/91/Dosa_and_ghee.jpg",
+        imgdata: "",
         address: "South Indian, Breakfast",
         price: 80,
         rating: "4.7",
